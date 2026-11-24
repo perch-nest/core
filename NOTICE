@@ -1,0 +1,7 @@
+Perch Nest core
+https://github.com/perch-nest/core
+
+The protocol and relay in this repository were designed and written by Just-Rice for Perch
+(https://github.com/Just-Rice/perch), and are distributed under the same licence, the Apache License, Version 2.0
+(see LICENSE). Roost (https://github.com/faarisaahmed/roost) modified them: Windows support in the Node.js relay, a
+relay that serves both projects, and the split of each project's own settings into product.js.

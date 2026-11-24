@@ -1,0 +1,11 @@
+{
+  "name": "perch-nest-core",
+  "version": "0.1.0",
+  "private": true,
+  "description": "What Perch and Roost share: the protocol and the relay.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs"
+  }
+}
