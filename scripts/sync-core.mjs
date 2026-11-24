@@ -72,7 +72,7 @@ if (at >= 0) {
   coreDir = args[at + 1];
 } else {
   temp = mkdtempSync(join(tmpdir(), 'perch-nest-core-'));
-  execFileSync('git', ['clone', '--quiet', '--depth', '1', '--branch', config.ref, config.repo, temp], { stdio: 'inherit' });
+  execFileSync('git', ['-c', 'advice.detachedHead=false', 'clone', '--quiet', '--depth', '1', '--branch', config.ref, config.repo, temp], { stdio: 'inherit' });
   coreDir = temp;
 }
 let commit = 'local';
